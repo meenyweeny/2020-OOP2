@@ -7,7 +7,7 @@ struct StudentInfo {
 	float grade; //0으로 초기화 되어있음
 	char bloodType; //null로 초기화 되어있음
 }s3 = { 20201236,4.4f,'O' },s4;
-//초기화는 나중에 해도 됨 (기본값으로 초기화가 되어있어서 안해도 오류안남)
+//초기화는 나중에 해도 됨 (기본값으로 초기화가 되어있어서 안해도 오류는 안남)
 
 int main() {
 	StudentInfo s1 = { 20201234,3.5f,'O' };
